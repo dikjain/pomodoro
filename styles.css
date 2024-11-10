@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.timer {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.time {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button.stop {
+    background-color: #f44336;
+}
+
+.button:disabled {
+    background-color: #ccc;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings label,
+.settings input {
+    margin: 5px 0;
+}
+
+.settings input {
+    width: 50px;
+    text-align: center;
+}
+
+.settings input[type="number"] {
+    font-size: 1rem;
+}
